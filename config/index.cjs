@@ -26,11 +26,13 @@ const USER_CONFIG = {
       useTemplateId: 'ySPULiBUeX9pUZsDUUCHnQgmsvrFCTU2qPVrRshhwsA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-15',
-      openUrl: 'www.baidu.com',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '宝贝', year: '1997', date: '11-15',
+        },
+        {
+          type: '*生日', name: '猪蹄', year: '1996', date: '12-25',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
