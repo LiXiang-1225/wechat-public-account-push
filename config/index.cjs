@@ -42,6 +42,31 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2019-02-01' },
       ],
     },
+        {
+      // 想要发送的人的名字
+      name: '梦里花落知多少',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oFOzH6IGYaToDMf6nLOCOsV5HrjM',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'CrEvzbfIU3EKMn7xGxkokk4eze1e-88-1DO4I0q3-Y8',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '11-15',
+      openUrl: 'www.baidu.com',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝贝', year: '1997', date: '11-15',
+        },
+        {
+          type: '*生日', name: '猪蹄', year: '1996', date: '12-25',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2019-02-01' },
+      ],
+    },
   ],
 
 
