@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oFOzH6JIMrzotQa6rwTX0MnQkbd0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'MjxMacrgSGZwyZAzuKI8YVC7-CBKBdC7Jk4mLLn9Lb0',
+      useTemplateId: 'CrEvzbfIU3EKMn7xGxkokk4eze1e-88-1DO4I0q3-Y8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-15',
       openUrl: 'www.baidu.com',
